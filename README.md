@@ -6,11 +6,16 @@
 1)  .env (ETH_RPC=...)  - по желанию можно вставить свою RPC; 
 2)  keys.txt - вставляем по одному приватнику в строке.
 
-3) ff_deposit.py - запуск Approve + Deposit $FF. 
+3) ff_deposit.py - запуск Approve + Deposit $FF.
+   
 При желании можно задать свой конфиг:
+
    PRIORITY_GWEI = 1.5   # начальный maxPriorityFeePerGas в gwei
+   
    MAX_WAIT      = 60   # секунд ожидания квитанции перед RBF
+   
    MAX_RETRIES   = 3     # сколько раз делать RBF
+   
    BUMP_PCT      = 20    # повышение комиссий при RBF в %
 
-4) ff_cooldown.py - инициация Unstake для вывода $FF
+5) ff_cooldown.py - инициация Unstake для вывода $FF
