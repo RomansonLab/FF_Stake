@@ -10,12 +10,12 @@
    
 При желании можно задать свой конфиг:
 
-   PRIORITY_GWEI = 1.5   # начальный maxPriorityFeePerGas в gwei
+   - PRIORITY_GWEI = 1.5   # начальный maxPriorityFeePerGas в gwei
    
-   MAX_WAIT      = 60   # секунд ожидания квитанции перед RBF
+   - MAX_WAIT      = 60   # секунд ожидания квитанции перед RBF
    
-   MAX_RETRIES   = 3     # сколько раз делать RBF
+   - MAX_RETRIES   = 3     # сколько раз делать RBF
    
-   BUMP_PCT      = 20    # повышение комиссий при RBF в %
+   - BUMP_PCT      = 20    # повышение комиссий при RBF в %
 
-5) ff_cooldown.py - инициация Unstake для вывода $FF
+4) ff_cooldown.py - инициация Unstake для вывода $FF
